@@ -1,0 +1,6 @@
+.Container {
+  min-width: 400px;
+  min-height: 400px;
+  background-color: #fff;
+  padding: 2rem;
+}

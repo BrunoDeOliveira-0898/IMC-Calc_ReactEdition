@@ -1,0 +1,84 @@
+#result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#imc-number {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+#imc-info {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#result-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+#result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#imc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin: 1.5rem 0;
+}
+
+.table-header {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-header,
+.table-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-header h4,
+.table-data p {
+  flex: 1;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3) {
+  max-width: 80px;
+}
+
+#back-btn {
+  align-self: center;
+}
+
+.good {
+  color: #12db34;
+}
+
+.low {
+  color: yellow;
+}
+
+.medium {
+  color: red;
+}
+
+.high {
+  color: darkred;
+}
